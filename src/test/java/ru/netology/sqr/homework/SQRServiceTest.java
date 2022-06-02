@@ -12,7 +12,7 @@ public class SQRServiceTest {
     public void testCountSqrInTheRangeFrom200To300(int expected, int firstNum, int lastNum, int lowerLimit, int upperLimit) {
 
         SQRService service = new SQRService();
-        int actual = service.calculateSqr(firstNum, lastNum, lowerLimit, upperLimit);
+        int actual = service.calculateSqr(lowerLimit, upperLimit);
 
         Assertions.assertEquals(expected, actual);
     }
