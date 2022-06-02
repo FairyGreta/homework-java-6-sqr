@@ -8,6 +8,6 @@ public class Main {
         int upperLimit = 300;
 
         SQRService service = new SQRService();
-        System.out.println("Количество квадратов в заданном диапазоне: " + service.calculateSqr(firstNum, lastNum, lowerLimit, upperLimit));
+        System.out.println("Количество квадратов в заданном диапазоне: " + service.calculateSqr(lowerLimit, upperLimit));
     }
 }
